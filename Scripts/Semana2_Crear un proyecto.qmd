@@ -1,0 +1,15 @@
+---
+title: "SEMANA 2"
+author: "DE LA CRUZ FUENTES MELANY"
+format: html
+editor: visual
+---
+
+## SEMANA 2 - CREACIÓN DE UN PROYECTO EN RSTUDIO:
+
+Le damos a File, Luego a New proyect, Luego a New Directory, New proyect y le colocamos un nombre
+
+```{r}
+#| echo: false
+2 * 2
+```
