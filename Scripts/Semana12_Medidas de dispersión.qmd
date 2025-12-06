@@ -1,0 +1,34 @@
+---
+title: "SEMANA 12"
+author: "DE LA CRUZ FUENTES MELANY"
+format: html
+editor: visual
+---
+
+## SEMANA 12 - MEDIDAS DE DISPERSIÓN 
+
+```{r}
+#MEDIDAS DE DISPERSION
+#VER LAS 6 PRIMERAS FILAS
+head(data)
+```
+
+```{r}
+#VARIANZA
+var(data$trigliceridos, na.rm = TRUE)
+```
+
+```{r}
+#DESVIACION ESTANDAR
+sd(data$trigliceridos, na.rm = TRUE)
+```
+
+```{r}
+#RANGO
+range(data$trigliceridos, na.rm = TRUE)
+```
+
+```{r}
+#RANGO INTERCUARTILO
+IQR(data$trigliceridos,na.rm = TRUE)
+```
