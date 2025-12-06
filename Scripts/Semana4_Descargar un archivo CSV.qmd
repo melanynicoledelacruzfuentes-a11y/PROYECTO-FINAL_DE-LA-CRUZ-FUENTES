@@ -1,0 +1,13 @@
+---
+title: "SEMANA 4"
+author: "DE LA CRUZ FUENTES MELANY"
+format: html
+editor: visual
+---
+
+## SEMANA 4 - DESCARGAR UN ARCHIVO CSV DEL REPOSITORIO
+
+Vamos a nuestra guia practica de la semana 4, entramos a nuestro repositorio, buscamos nuestra data y la descargamos, luego ya la podemos importar a nuestro proyecto.
+
+```{data<- read_csv("C:/Users/Lenovo/Downloads/s04_diabetes (1).csv")}
+```
