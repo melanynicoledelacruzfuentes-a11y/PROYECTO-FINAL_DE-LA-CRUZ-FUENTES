@@ -1,0 +1,18 @@
+---
+title: "SEMANA 6"
+author: "DE LA CRUZ FUENTES MELANY"
+format: html
+editor: visual
+---
+
+## SEMANA 6 - LIMPIAR UNA DATA:
+
+Importamos nuestra data, la ejecutamos, colocamos nuestro código y damos Ctrl+Enter, verificamos si se ha ejecutado y se ha limpiado la data.
+
+```{r}
+data<- read_csv("C:/Users/Lenovo/Downloads/s14_glucosa_circun.csv")
+```
+
+```{r}
+data_limpia<-data[!is.na(data$imc),]
+```
